@@ -41,7 +41,7 @@ Vector tiles are square-shaped collections of geographic data that contain the m
 
 As you pan and zoom the map, notice that the URL updates to append #, /, and numbers to represent the zoom level (such as #16) and coordinates of the map (such as 40.7085/-73.9903). You can also see this URL pattern on the original simple-demo website. You can always delete those numbers from the URL to return to the original state of the demo.
 
-	![URL with zoom level and coordinates](/images/local-host-url.png)
+![URL with zoom level and coordinates](/images/local-host-url.png)
 
 Be sure to keep the terminal window open while you are working on this walkthrough.
 
@@ -92,7 +92,7 @@ Currently, the map has a light source defined as `directional`, which you can th
 
 The `position` parameter defines a light originating at an x-,y- coordinate location and at a z-value in meters from the ground, giving the appearance of a light pointed at the tip of Manhattan. You can learn more about lights and their parameters from the [lights documentation](https://github.com/tangrams/tangram/wiki/lights).
 
-	![simple-demo with new light](/images/simple-demo-new-light.png)
+![simple-demo with new light](/images/simple-demo-new-light.png)
 
 The updated map looks washed out and the new spot light is barely visible, so you can adjust `light1` to make the map look better.
 
